@@ -1,0 +1,4 @@
+_BASE_: "https://raw.githubusercontent.com/facebookresearch/detectron2/master/configs/Base-RCNN-C4.yaml"
+MODEL:
+  ROI_HEADS:
+    NAME: "Res5ROIHeadsForVGStride"
