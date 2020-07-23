@@ -12,7 +12,11 @@ In this repo, we extend the [adrelino](https://github.com/adrelino/py-bottom-up-
 to FasterRCNN with attributes. 
  
 ## Requirements
-It is highly recommended that you create a virtual environment. 
+It is highly recommended that you create a virtual environment. Create the environment from the environment.yml file:
+
+``conda create --name <env> --file package-list.txt``
+
+
 ```
 detectron2
 torch >= 1.4.0
