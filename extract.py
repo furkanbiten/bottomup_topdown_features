@@ -169,7 +169,7 @@ def build_predictor(args):
 
 def get_vg_class_att():
     # Load VG Classes and Attributess
-    data_path = 'demo/data/genome/1600-400-20'
+    data_path = 'data/genome/1600-400-20'
     vg_classes = []
     with open(os.path.join(data_path, 'objects_vocab.txt')) as f:
         for object in f.readlines():
