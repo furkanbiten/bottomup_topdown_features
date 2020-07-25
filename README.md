@@ -12,22 +12,31 @@ In this repo, we extend the [adrelino](https://github.com/adrelino/py-bottom-up-
 to FasterRCNN with attributes. 
  
 ## Requirements
-It is highly recommended that you create a virtual environment. Create the environment from the environment.yml file:
-
-``conda create --name <env> --file package-list.txt``
-
-
 ```
 detectron2
 torch >= 1.4.0
 opencv-python
 tqdm
 ```
-If you have some problems with the detectron2 either installing or doesnt play nice with the current repo, 
-then it is highly recommended to install via the following command:
+
+## Virtual Environment
+It is highly recommended that you create a virtual environment. I have used miniconda3 with python3.7.7.
+Create the environment from the env.yml file:
+
+``conda env create --name <env_name> -f env.yml ``
+
+You will not have detectron inside env.yml. To obtain the same detectron2 I have, please run:
+ 
 ```python -m pip install 'git+https://github.com/facebookresearch/detectron2.git@ffff8ac'```
 
-If that fails as well, Google is your best friend.
+If that fails as well, Google is your best friend. 
+Also, here are couple of sentences to make up for the time you wasted on this repo:
+ 
+ Tough luck!
+ 
+ This repo sucks!
+ 
+ Sorry I have failed you!
 
 ## Pretrained Weights
 Pretrained models thankfully converted from Caffe to Pytorch by [airsplay](https://github.com/airsplay/py-bottom-up-attention/)
