@@ -30,13 +30,6 @@ You will not have detectron inside env.yml. To obtain the same detectron2 I have
 ```python -m pip install 'git+https://github.com/facebookresearch/detectron2.git@ffff8ac'```
 
 If that fails as well, Google is your best friend. 
-Also, here are couple of sentences to make up for the time you wasted on this repo:
- 
- Tough luck!
- 
- This repo sucks!
- 
- Sorry I have failed you!
 
 ## Pretrained Weights
 Pretrained models thankfully converted from Caffe to Pytorch by [airsplay](https://github.com/airsplay/py-bottom-up-attention/)
